@@ -118,7 +118,7 @@ module Skyscanner
 
 #      request('skyscannerredirect', segments, params)
       # Life isn't that easy - in this case the constructed URL is what we return
-      ret = builder("skyscannerredirect", segments_to_path(segments, params), params.clone)
+      ret = builder("referral", segments_to_path(segments, params), params.clone)
       "#{ret[0]}?apiKey=#{api_key}"
     end
 
