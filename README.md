@@ -1,7 +1,8 @@
 skyscanner
 ==========
 
-A Ruby wrapper for the Skyscanner API.
+A Ruby wrapper for the Skyscanner API. See http://business.skyscanner.net/portal/en-GB/AffiliateNetwork and
+http://business.skyscanner.net/portal/en-GB/Documentation/Api for official documentation.
 
 
 Installation
