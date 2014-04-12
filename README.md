@@ -39,6 +39,7 @@ Options can be passed in a hash to these methods and they will be included in th
 
 There are a number of class level options that can be overridden.
 
+    Skyscanner::Connection.apikey           # the default API Key
     Skyscanner::Connection.adapter          # the Faraday adapter to use (default: :net_http)
     Skyscanner::Connection.logger           # a Logger object for logging requests (default: nil)
     Skyscanner::Connection.protocol         # http or https (default: :http)
