@@ -34,7 +34,7 @@ Each of the four endpoints can be accessed with a class method reflecting the en
 Options can be passed in a hash to these methods and they will be included in the request.
 
     ## Example from: http://www.skyscanneraffiliate.net/portal/en-GB/US/BrowseCache/BrowseQuotes
-    Skyscanner::Conneciton.browse_quotes({ :country => "GB", :curency => "GBP", :locale => "en-GB", :originPlace => "UK", :destinationPlace => "anywhere", :outboundPartialDate => "anytime", :inboundPartialDate => "anytime" })
+    Skyscanner::Connection.browse_quotes({ :country => "GB", :currency => "GBP", :locale => "en-GB", :originPlace => "UK", :destinationPlace => "anywhere", :outboundPartialDate => "anytime", :inboundPartialDate => "anytime" })
     # => GET http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/GB/GBP/en-GB/UK/anywhere/anytime/anytime?apiKey=prtl6749387986743898559646983194
 
 There are a number of class level options that can be overridden.
