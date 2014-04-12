@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name        = "skyscanner"
-  gem.version     = "0.1"
+  gem.version     = "0.2.0"
   gem.authors     = ["Alex Beregszaszi"]
   gem.email       = ["alex@rtfs.hu"]
   gem.description = "A Ruby wrapper for the Skyscanner API. See http://www.skyscanneraffiliate.net/portal/en-GB/US/api/overview for the official documentation."
